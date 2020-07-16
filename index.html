@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>App</title>
+</head>
+<body>
+    <main>
+        <form id="search-form">
+            <label for="search">Search</label>
+            <input type="text" name="search" id="search" value="octocat">
+            <input type="submit" value="search" id="js-btn-search">
+        </form>
+<p id="error-message" class="error-message"></p>
+<section id="results" class="hidden">
+    <h2>Search results</h2>
+    <ul id="results-list">
+    </ul>
+  </section>
+        <script src="app.js"></script>
+    </main>
+</body>
+</html>
